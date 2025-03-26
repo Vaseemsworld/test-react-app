@@ -8,7 +8,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://django-backend.onrender.com/api/hello/', {
+      const response = await fetch('https://test-django-app-uw0c.onrender.com/api/hello/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name }),
